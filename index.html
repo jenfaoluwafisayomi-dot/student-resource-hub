@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resource Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📘 Student Resource Hub</h1>
+        <button id="toggleMode">Toggle Dark Mode</button>
+    </header>
+    <main>
+        <!-- Task Section -->
+        <section>
+            <h2>📝 Task Manager</h2>
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button id="addTask">Add Task</button>
+            <ul id="taskList"></ul>
+        </section>
+        <!-- Resource Section -->
+        <section>
+            <h2>📚 Study Resources</h2>
+            <input type="text" id="searchInput" placeholder="Search resources">
+            <ul id="resourceList">
+                <li>JavaScript Tutorial - YouTube</li>
+                <li>HTML & CSS Guide</li>
+                <li>Frontend Career Roadmap</li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
